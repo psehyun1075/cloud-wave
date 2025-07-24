@@ -41,7 +41,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
-      # Step 2 #
+      # Step 2 
       - name: Create CodeDeploy Deployment
         id: deploy
         run: |
